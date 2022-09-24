@@ -1,0 +1,151 @@
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/header-shapes.png);
+  background-position-y: 50px;
+}
+
+.navbar {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  background-color: white;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  top: 44px;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  margin-top: 35px;
+  margin-right: 24px;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  margin-top: 58px;
+  margin-left: 24px;
+}
+
+.headerline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+  position: absolute;
+}
+
+.headline h2 {
+  width: 327px;
+  height: 150px;
+  margin-top: 114px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+.headline p {
+  width: 327px;
+  height: 146px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  top: 368px;
+  padding-top: 12px;
+  margin-left: 24px;
+}
+
+.supportingtext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 117px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.supportingtext h3 {
+  width: 117px;
+  height: 24px;
+  padding-top: 12px;
+  padding-left: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.socialMedia {
+  padding-top: 12px;
+  padding-left: 24px;
+  width: 170.17px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
