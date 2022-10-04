@@ -664,42 +664,38 @@ img {
 }
 
 .contact-me {
-  background: url(images/contact1.png) , #6070FF;
+  background: url(images/Contaback.png);
   position: absolute;
   width: 375px;
   height: 779px;
   top: 3710px;
-}
-
-.contact-me .contact-header {
-  position: absolute;
-  width: 801px;
-  height: 56px;
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #FFFFFF;
 }
 
+.contact-header {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 70px;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+  background-image: url(./images/Ellipse\ 12.png), url(./images/Rectangle\ 4.png), url(./images/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center, left , right;
+  
+}
+
 .paragraph {
-  position: absolute;
-  width: 327px;
-height: 102px;
-left: 24px;
-top: 4802px;
-font-family: 'Poppins' ,sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-margin-top: 12px;
+  display: flex;
+  margin-left: 40px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .inputs {
