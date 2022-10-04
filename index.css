@@ -662,3 +662,54 @@ img {
   order: 2;
   flex-grow: 0;
 }
+
+.contact-me {
+  background: url(images/contact1.png) , #6070FF;
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  top: 3710px;
+}
+
+.contact-me .contact-header {
+  position: absolute;
+  width: 801px;
+  height: 56px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.paragraph {
+  position: absolute;
+  width: 327px;
+height: 102px;
+left: 24px;
+top: 4802px;
+font-family: 'Poppins' ,sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+margin-top: 12px;
+}
+
+.inputs {
+    margin: 0 auto;
+    width: 330px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1em; 
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    margin-top: 80px;
+}
