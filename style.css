@@ -650,7 +650,6 @@ img {
 .finalframe {
   width: 327px;
   height: 72px;
-  flex: none;
   order: 1;
   flex-grow: 0;
 }
@@ -658,7 +657,149 @@ img {
 .skillframe {
   width: 327px;
   height: 72px;
-  flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+.contact-me {
+  background: url(./images/Contactme1.png);
+  margin-top: 70px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  width: 375px;
+  height: 750px;
+  text-align: center;
+  color: white;
+  margin-right: 50px;
+}
+
+.shapes {
+  background-image: url(images/contactshapes.png);
+  background-repeat: no-repeat;
+  background-position: center, right, left;
+  background-position-x: 120px;
+  background-position-y: -10px;
+  margin-left: 30px;
+}
+
+.contat {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  padding-top: 90px;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+}
+
+.para {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.form1 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+textarea {
+  height: 90px;
+}
+
+.form {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-button {
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-position: center, right;
+}
+
+.see {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  background: #fff;
+  border-radius: 8px;
+  border: transparent;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  border-radius: 8px;
+  margin-top: -20px;
+}
+
+.active,
+.btn:hover {
+  background-color: white;
+  color: white;
+}
+
+.active,
+.resume:hover {
+  background-color: rgb(26, 68, 206);
+  color: rgb(255, 255, 255);
+}
+
+.active,
+.see:hover {
+  background-color: #6070ff;
+  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
+}
+
+.resume:focus {
+  background-color: blue;
+}
+
+.see:focus {
+  background-color: blue;
+}
+
+.frame {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 120px;
 }
