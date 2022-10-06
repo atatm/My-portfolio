@@ -669,14 +669,16 @@ img {
   height: 750px;
   text-align: center;
   color: white;
+  margin-right: 50px;
 }
 
 .shapes {
   background-image: url(images/contactshapes.png);
   background-repeat: no-repeat;
   background-position: center, right, left;
-  background-position-x: 160px;
+  background-position-x: 120px;
   background-position-y: -10px;
+  margin-left: 30px;
 }
 
 .contat {
@@ -725,9 +727,22 @@ textarea {
 
 .form-button {
   margin-left: 20px;
-  background-image: url(./images/poly4.png), url(./images/polycircle.png);
   background-repeat: no-repeat;
   background-position: center, right;
+}
+
+.see {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  background: #fff;
+  border-radius: 8px;
+  border: transparent;
 }
 
 button {
@@ -745,7 +760,7 @@ button {
 
 .active,
 .btn:hover {
-  background-color: #666;
+  background-color: white;
   color: white;
 }
 
@@ -759,6 +774,7 @@ button {
 .see:hover {
   background-color: #6070ff;
   color: rgb(255, 255, 255);
+  border: 1px solid #fff;
 }
 
 .resume:focus {
@@ -786,5 +802,4 @@ button {
   background: #0d151e;
   border-radius: 10px;
   margin-left: 120px;
-  margin-top: 10px;
 }
