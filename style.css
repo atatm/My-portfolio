@@ -1365,7 +1365,6 @@ textarea {
   .btn:hover {
     background-color: white;
     color: white;
-    transform: translate(42px, 18px);
     transform: scale(1.55);
     transform: translate(42px, 18px);
   }
