@@ -786,8 +786,12 @@ textarea {
   }
 
   .portfoliocards {
-    display: flex;
-    flex-direction: column;
+    display: none;
+    
+  }
+  
+  .aboutdesktop {
+    display: none;
   }
 
   .cardwork1 {
