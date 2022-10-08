@@ -883,12 +883,13 @@ textarea {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 21px;
     text-decoration: none;
     display: flex;
     align-items: center;
     text-align: center;
     color: #6070ff;
+    
   }
 
   .navbar .deskmenu ul {
