@@ -824,16 +824,25 @@ textarea {
   .cardwork1 {
     display: flex;
     flex-direction: column;
+    width: 83.27%
   }
 
   .cardwork2 {
     display: flex;
     flex-direction: column;
+    width: 83.27%;
   }
 
   .cardwork3 {
     display: flex;
     flex-direction: column;
+    width: 83.27%;
+  }
+
+  .cardwork4 {
+    display: flex;
+    flex-direction: column;
+    width: 83.27%;
   }
 
   button {
