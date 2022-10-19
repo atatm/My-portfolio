@@ -1,5 +1,5 @@
 body {
-  width: 3100;
+  width: 100%;
   height: 5410px;
   background: #F7F7F9;
   display: flex;
@@ -53,6 +53,8 @@ body {
   border-radius: 20px;
   border-bottom-left-radius: 100%;
   transition: width 0.5s, height 0.5s, border-radius 0.5s;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px) saturate(50%);
 }
 
 .linkmenu.openmenu {
@@ -60,15 +62,17 @@ body {
   height: 100vh;
   border-bottom-left-radius: 0;
 }
+
 .linkitem {
   margin: 20px;
   text-align: start;
+  list-style-type: none;
 }
 
 .linkitem a {
   display: inline-block;
   text-decoration: none;
-  color: #3a4a42;
+  color: #fff;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -190,7 +194,7 @@ body {
   width: 100%;
   position: absolute;
   height: 1263px;
-  top: 3600px;
+  top: 3650px;
   background: #FFFFFF;
 }
 
@@ -257,22 +261,23 @@ body {
 }
 
 .contact-me {
-  background: url(images/Contactme1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(./images/Contactme1.png);
+  margin-top: 70px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  width: 100%;
   height: 750px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 24px 42px 24px 24px;
+  color: white;
+  margin-right: 50px;
 }
 
 .shapes {
   background-image: url(images/contactshapes.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center, right, left;
+  background-position-x: 120px;
+  background-position-y: -10px;
+  margin-left: 30px;
 }
 
 .contat {
@@ -308,4 +313,194 @@ body {
   margin-top: 6px;
   margin-bottom: 10px;
   resize: vertical;
+}
+
+textarea {
+  height: 90px;
+}
+
+.form {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-button {
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-position: center, right;
+}
+
+.see {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  background: #fff;
+  border-radius: 8px;
+  border: transparent;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  border-radius: 8px;
+  margin-top: -20px;
+}
+
+.active,
+.btn:hover {
+  background-color: white;
+  color: white;
+}
+
+.active,
+.resume:hover {
+  background-color: rgb(26, 68, 206);
+  color: rgb(255, 255, 255);
+}
+
+.active,
+.see:hover {
+  background-color: #6070ff;
+  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
+}
+
+.resume:focus {
+  background-color: blue;
+}
+
+.see:focus {
+  background-color: blue;
+}
+
+.frame {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .humberger {
+    display: none;
+  }
+
+  .linkmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #28352f;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 28px;
+    top: 40px;
+  }
+
+  .headline {
+    background: url(images/headerback.png);
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 142px;
+    position: absolute;
+    width: 100%;
+    height: 2694px;
+    left: 0px;
+    top: 917px;
+  }
+
+  .mcard1{
+    display: none;
+  }
+
+  .dcard1 {
+    height: 496px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mcard2{
+    display: none;
+  }
+  
+  .dcard2 {
+    height: 465px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mcard3 {
+    display: none;
+  }
+
+  .dcard3 {
+    height: 448px;
+    display: flex;
+    flex-direction: row;
+  }
+  .mcard4 {
+    display: none;
+  }
+
+  .dcard4 {
+    height: 448px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobileabout {
+    display: none;
+  }
+
+  .deskaboutcrd {
+    height: 448px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 8.25%;
+    margin-top: 50px;
+  }
+
+  .contact-me {
+    background: url(./images/contactback.png);
+    margin-top: 70px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    color: white;
+    margin-right: 50px;
+  }
+  .shapes {
+    background-image: url(images/contactinside.png);
+    background-repeat: no-repeat;
+    background-position: center, right, left;
+    margin-left: 30px;
+  }
 }
