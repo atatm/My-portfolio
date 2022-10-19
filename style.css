@@ -270,6 +270,10 @@ h4 {
   margin-left: 5%;
 }
 
+.contacttext {
+  color: #fff;
+}
+
 .contact-info {
   padding-top: 100px;
   text-align: center;
@@ -691,6 +695,10 @@ h4 {
     text-align: center;
     color: #fff;
     margin-left: 0%;
+  }
+
+  .contacttext {
+    color: #fff;
   }
 
   .contact-info h3 {
