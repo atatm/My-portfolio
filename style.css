@@ -1,13 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   overflow-y: scroll;
-  background-color: rgb(237, 237, 237);
+  background-color: white;
 }
 
 .containers {
@@ -35,7 +29,6 @@ nav {
   display: flex;
   padding-left: 0%;
   gap: 10px;
-  
 }
 
 h3 {
@@ -70,7 +63,7 @@ a:hover {
 
 i {
   font-size: 25px;
-  color: #505f79;
+  color: #504f79;
   cursor: pointer;
 }
 
@@ -551,7 +544,7 @@ h4 {
     padding-left: 30px;
   }
 
-  .firstlink{
+  .firstlink {
     padding-bottom: 20px;
   }
 
@@ -747,6 +740,4 @@ h4 {
     transform: scale(1.3);
     z-index: 2;
   }
-
- 
 }
