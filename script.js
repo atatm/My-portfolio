@@ -1,11 +1,11 @@
-const  deskmenu =document.getElementById("deskid");
-const  menuIcon =document.getElementById("menuiconid");
+const  menulink =document.getElementById("menuid");
+const  menuIcon =document.getElementById("menuIcon");
 
 menuIcon.onclick =function(){
-    deskmenu.classList.toggle("open-menu");
+    menulink.classList.toggle("openmenu");
     console.log("icon is clicked");
 
-    if(deskmenu.classList.contains("open-menu")){
+    if(menulink.classList.contains("openmenu")){
         menuIcon.src = "images/close.png";
     }else{
         menuIcon.src = "images/Union.png";
