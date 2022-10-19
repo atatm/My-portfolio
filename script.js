@@ -1,13 +1,18 @@
-const  menulink =document.getElementById("menuid");
-const  menuIcon =document.getElementById("menuIcon");
+const mobileMenu = document.getElementById("mobileMenu");
+const menuIcon = document.getElementById("menu-icon");
+const closeIcon= document.getElementById("menu-close")
 
-menuIcon.onclick =function(){
-    menulink.classList.toggle("openmenu");
-    console.log("icon is clicked");
+menuIcon.onclick = function () {
+  mobileMenu.classList.toggle("open-mobileMenu");
+};
 
-    if(menulink.classList.contains("openmenu")){
-        menuIcon.src = "images/close.png";
-    }else{
-        menuIcon.src = "images/Union.png";
-    }
+closeIcon.onclick= function (){
+    mobileMenu.classList.remove("open-mobileMenu");
 }
+
+document.querySelectorAll(".menu").forEach((n) =>
+  n.addEventListener("click", () => {
+    mobileMenu.classList.remove("open-mobileMenu");
+  })
+);
+
