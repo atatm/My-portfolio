@@ -1,6 +1,6 @@
 # setup-and-mobile-project
 
-Project Name : setup-and-mobile-project
+Project Name : setup-and-mobile-project (portfolio)
 
 
 Built With:html css and javascript
