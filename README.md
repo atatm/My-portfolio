@@ -1,9 +1,9 @@
 # setup-and-mobile-project
 
-Project Name : setup-and-mobile-project
+Project Name : setup-and-mobile-project (portfolio)
 
 
-Built With:html and css
+Built With:html css and javascripts
 Major languages
 Frameworks
 Technologies used
