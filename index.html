@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
@@ -14,145 +16,259 @@
     <div class="mobnav">
       <img src="images/mobileheader.png" alt="">
     </div>
+    <div class="firstheader">
       <div class="headertext">
         <div class="mobname">
         <h2>I’m Alelign <br> Glad to see you!</h2></div>
         <div class="mobpara">
         <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <img id="menu-close" src="images/closeIcon.png" alt="close icon">
+        <ul class="desk-menu">
+          <li class="menu"><a class="desktop-menu" href="#portfolio">Portfolio</a></li>
+          <li class="menu"><a class="desktop-menu" href="#about-me">About</a></li>
+          <li class="menu"><a class="desktop-menu" href="#contact-me">Contact</a></li>
+        </ul>
       </div>
-       <div class="mobileconnect">
-        <img src="images/mobileconnect.png" alt="textimages">
-       </div>
-       <div class="mobileframe">
-        <img src="images/iconframe.png" alt="linkimages">
-       </div>
-    </div>
+    </nav>
+
+
+    <main class="introducion">
+      <h1>I'm Alelign <br> great to see you!</h1>
+      <p>I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me. </p>
+      <h3>LET'S CONNECT</h3>
+      <div class="socials">
+        <img src="images/iconframe.png" alt="">
+      </div>
+    </main>
   </div>
-  <div class="mobile">
-   <nav class="navbar">  
-      <div class="logo">
-        <a href="#">My Logo</a>
-        <img class="toggle" src="images/Union.png" alt="humburger images">
+
+  <section class="portfolio-cards">
+    <div id="portfolio" class="cards">
+      <div class="card-images">
+        <img src="images/mobilecard1.png" alt="Picture of card" />
       </div>
-        <div class="deskmenu">
-          <ul>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+      <div class="card-3">
+        <img src="images/deskcard1.png" alt="Picture of card">
+      </div>
+      <div class="card-title">
+        <h6>Tonic</h6>
+        <ul class="firstlink">
+          <li id="canopy">Canopy</li>
+          <li><img src="images/Canopy.png" alt="point image" /></li>
+          <li id="backend">Back End Dev</li>
+          <li><img src="images/Canopy.png" alt="point image" /></li>
+          <li id="backend">2015</li>
+        </ul>
+        <p class="texts"> A daily selection of privately personalized reads; no accounts or sign-ups required.
+</p>
+        <ul class="programming-languages">
+          <li><a id="language-name" href="#">html</a></li>
+          <li><a id="language-name" href="#">css</a></li>
+          <li><a id="language-name" href="#">javascript</a></li>
+        </ul>
+        <div><a class="see-projects" href="#">See Projects</a></div>
+      </div>
+    </div>
+
+    <div class="cards" id="card-1">
+      <div class="card-images">
+        <img src="images/mobilecard3.png" alt="card image" />
+      </div>
+      <div class="card-3">
+        <img src="images/deskcard4.png" alt="card image">
+      </div>
+
+      <div class="card-title">
+        <h4> Multi-Post<br/>Stories </h4>
+        <ul class="firstlink">
+          <li id="canopy">Canopy</li>
+          <li><img src="images/Canopy.png" alt="Bullet point image" /></li>
+          <li id="backend">Back End Dev</li>
+          <li><img src="images/Canopy.png" alt="Bullet point image" /></li>
+          <li id="backend">2015</li>
+        </ul>
+        <p class="texts">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="programming-languages">
+          <li><a id="language-name" href="#">html</a></li>
+          <li><a id="language-name" class="ruby-rails" href="#">Ruby on rails</a></li>
+          <li><a id="language-name" href="#">css</a></li>
+          <li><a id="language-name" href="#">javascript</a></li>
+        </ul>
+        <div><a class="see-projects" href="#">See Projects</a></div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card-images">
+        <img src="images/mobilecard5.png" alt="card image" />
+      </div>
+      <div class="card-3">
+        <img src="images/deskcard5.png" alt="card image">
+      </div>
+      <div class="card-title">
+        <h6>Tonic</h6>
+        <ul class="list">
+          <li id="canopy">Canopy</li>
+          <li><img src="images/Canopy.png" alt="Bullet point image" /></li>
+          <li id="backend">Back End Dev</li>
+          <li><img src="images/Canopy.png" alt="Bullet point image" /></li>
+          <li id="backend">2015</li>
+        </ul>
+        <p class="texts">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="programming-languages">
+          <li><a id="language-name" href="#">html</a></li>
+          <li><a id="language-name" class="ruby-rails" href="#">Ruby on rails</a></li>
+          <li><a id="language-name" href="#">css</a></li>
+          <li><a id="language-name" href="#">javascript</a></li>
+        </ul>
+        <div><a class="see-projects" href="#">See Projects</a></div>
+      </div>
+    </div>
+
+    <div class="cards" id="card-2">
+      <div class="card-images">
+        <img src="images/mobilecard7.png" alt="card image" />
+      </div>
+      <div class="card-3">
+        <img src="images/deskcard8.png" alt="card image">
+      </div>
+      <div class="card-title">
+        <h6>Multi-Post<br />Stories</h6>
+        <ul class="list">
+          <li id="canopy">Canopy</li>
+          <li><img src="images/Canopy.png" alt="point image" /></li>
+          <li id="backend">Back End Dev</li>
+          <li><img src="images/Canopy.png" alt="point image" /></li>
+          <li id="backend">2015</li>
+        </ul>
+        <p class="texts">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="programming-languages">
+          <li><a id="language-name" href="#">html</a></li>
+          <li><a id="language-name" class="ruby-rails" href="#">Ruby on rails</a></li>
+          <li><a id="language-name" href="#">css</a></li>
+          <li><a id="language-name" href="#">javascript</a></li>
+        </ul>
+        <div><a class="see-projects" href="#">See Projects</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-Me">
+
+    <div id="about-me" class="about">
+      <h2 class="about-heading">About<br />Myself</h2>
+
+      <h5 id="aboutMe-text">
+        Hello I’m a software developer! I can help you build a product ,
+        feature or website Look through some of my work and experience! If
+        you like what you see and have a project you need coded, don’t
+        hestiate to contact me.
+      </h5>
+      <h3>LET'S CONNECT</h3>
+      <div class="socials about-socials">
+        <img src="images/iconframe.png" alt="social media icons">
+      </div>
+      <div><a class="see-projects resume" href="#">Get my resume</a></div>
+    </div>
+
+    <div class="Skills">
+      <div class="language" id="framework">
+        <ul class="list-type">
+          <li>Languages</li>
+        </ul>
+        <a id="down-arrow"><img src="images/Vector.png" alt="Down arrow" /></a>
+      </div>
+      <div class="language-container">
+        <div class="list-languages">
+          <ul class="list-type">
+            <li id="language-image">
+              <img src="images/Ellipse 1.png" alt="JavaScript badge" />
+            </li>
+            <li id="js-style">JavaScript</li>
           </ul>
         </div>
-   
-  </nav>
-  <div class="headline">
-    <div class="headerinside">
-      
-      <div class="headertext">
-       <h2>I’m Alelign <br> Glad to see you!</h2>
-       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <div class="list-languages">
+          <ul class="list-type">
+            <li id="language-image">
+              <img src="images/Ellipse 2.png" alt="HTML bagde" />
+            </li>
+            <li id="html-style">HTML</li>
+          </ul>
+        </div>
+        <div class="list-languages">
+          <ul class="list-type">
+            <li id="language-image">
+              <img src="images/Ellipse css.png" alt="CSS badge" />
+            </li>
+            <li id="css-style">CSS</li>
+
+          </ul>
+
+        </div>
       </div>
-      <br>
-      <br>
-      <div class="supportingtext">
-       <h3>LETS CONNECT</h3>
+      <div class="language" id="border-line">
+        <ul class="list-type">
+          <li>Frameworks</li>
+        </ul>
+        <a id="down-arrow" href="#"><img src="images/Vector.png" alt="Right arrow" /></a>
       </div>
-      <div class="socialMedia">
-        <img  src="images/social media icons.png" alt="social media icons">
+      <div class="language" id="border-line">
+        <ul class="list-type">
+          <li>Skills</li>
+        </ul>
+        <a id="down-arrow" href="#"><img src="images/Vector.png" alt="Right arrow" /></a>
       </div>
     </div>
-  </div>
-</div>
-</div>
- <div class="fullcard">
-  <div class="portfoliocards">
-   <div class="cardwork1">
-    <div class="portfolio1">
-     <img src="images/card1.png" alt="">
+
+
+  </section>
+
+  <section class="contact-me">
+    <div id="contact-me" class="contact-info">
+      <h3>Contact me</h3>
+      <p>
+        If you have an application you <br class="ds-ignore"> are interested in <br class="mb-ignore"> developing,
+        a<br class="ds-ignore">
+        feature that you need built or a <br class="ds-ignore">project<br class="mb-ignore">that needs coding. I’d<br
+          class="ds-ignore">
+        love to help with it
+      </p>
+      <form action="https://formspree.io/f/mvoyrlaq" method="post">
+        <ul class="form-input">
+          <li>
+            <input type="text" id="name" name="user-name" placeholder="Name" maxlength="30" class="text-input"
+              required />
+          </li>
+          <li>
+            <input type="text" id="mail" name="user-email" placeholder="email@address.com" class="text-input"
+              required />
+          </li>
+          <li>
+            <textarea name="user-message" id="msg" placeholder="Write your message here" maxlength="500"
+              class="message-input" required></textarea>
+          </li>
+          <li>
+            <button type="submit" class="submitBtn">Get in Touch</button>
+          </li>
+        </ul>
+      </form>
+
     </div>
+  </section>
 
-  <div class="right1">
-    <img src="images/right1.png" alt="images">
-  </div>
-</div>
-<div class="cardwork2">
-  <div class="card2left">
-    <img src="images/card2left.png" alt="iamges">
-  </div>
-  <div class="card2right">
-    <img src="images/card2right.png" alt="images">
-  </div>
-  
-</div>
-<div class="cardwork3">
-  <div class="card3left">
-    <img src="images/card3left.png" alt="iamges">
-  </div>
-  <div class="card3right">
-    <img src="images/card3right.png" alt="images">
-  </div>
-
-</div>
-<div class="cardwork4" >
-  <div class="card4left">
-    <img src="images/card4left.png" alt="iamges4">
-  </div>
-  <div class="card4right">
-    <img src="images/card4right.png" alt="images4">
-  </div>
-</div>
-</div>
- <div class="mobcard">
-   <div class="mobwork1">
-    <img src="images/mobwork1.png" alt="mob1"></div>
-   <div class="mobwork2">
-    <img src="images/mobwork2.png" alt="mob2"></div>
-   <div class="mobwork3">
-    <img src="images/mobwork3.png" alt="mob3"></div>
-   <div class="mobwork4">
-    <img src="images/mobwork4.png" alt="mob4"></div>
-  </div>
-</div>
-<div class="aboutpage">
-  <div class="mobileabout">
-    <img src="images/mobileabout.png" alt="for mobiel">
-   </div>
-   <div class="about">
-  <div class="aboutdesktop">
-  <div class="aboutitem1">
-    <img src="images/aboutleft.png" alt="leftimages">
-  </div>
-  <div class="aboutitem2">
-    <img src="images/aboutright.png" alt="leftimages">
-  </div>
-</div>
-</div>
-</div>
-    <div class="contact-me"> 
-      <div class="contactinside">
-      <h1 class="contat">Contact me</h1>
-      <div>
-          <p class="para">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-      </div>
-
-    <form class="Form" action="https://formspree.io/f/mvoyrlaq" method="POST">
-      <div class="form">
-          <input type="text"  name="name" class="form1"  placeholder="Yeremias" maxlength="30" required>
-          <input type="email" name="email" class="form1" placeholder="natajayanj14@gmail.com" maxlength="30" required>
-          <textarea type="text" id="subject" name="subject" class="form1" placeholder="Write your message here"
-               maxlength="500" required></textarea>
-               <br>
-               <div class="form-button">
-                <button class="see" type="submit">Get In Touch</button>
-            </div>
-      </div>
-      <br>
-      <br>
-      <div class="line"></div>
-      <br>  
-    </form>
-  </div>
-  </div>
-  </div>
-</div>
+    
+ </div>
+  <script src="script.js"></script>
 </body>
 </html>
