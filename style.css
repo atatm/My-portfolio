@@ -360,6 +360,24 @@ h4 {
   color: gray;
 }
 
+.modal1 {
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+.modal1.openbtn1 {
+  visibility: visible;
+}
+
 @media screen and (max-width: 767px) {
   .introducion {
     background-image: url("images/header-shapes.png");
