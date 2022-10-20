@@ -3,7 +3,7 @@
 Project Name : setup-and-mobile-project
 
 
-Built With:html and css
+Built With:html css and javascript
 Major languages
 Frameworks
 Technologies used
