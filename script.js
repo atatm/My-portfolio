@@ -36,7 +36,7 @@ const projects = [
     title: 'Multi-Post <br> Stories',
     list: ['Canopy', 'Back End Dev', '2015'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['HTML', 'Ruby on rails', 'css', 'javascript'],
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     title: 'Uber Navigation',
     list: ['Canopy', 'Back End Dev', '2015'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['HTML', 'Ruby on rails', 'css', 'javascript'],
   },
 ];
@@ -97,7 +97,7 @@ function createModal() {
               See Live
               <img src="images/see-live.png" alt="Live img" />
               </button>
-              <button href="">
+              <button id="seeSource" href="">
               See Source
               <img src="images/see-source.png" alt="Github logo" />
               </button>

@@ -96,7 +96,7 @@ i {
   border-radius: 16px;
 }
 
-h4 {
+h6 {
   color: #172b4d;
   font-weight: 700;
   font-size: 32px;
@@ -374,12 +374,15 @@ h4 {
   width: 90%;
   height: 90%;
   background: #fff;
-  overflow: scroll;
+  margin-top: 25px;
   border-radius: 20px;
   position: relative;
   padding-left: 15px;
   display: none;
-  margin: 75px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 25px;
+  margin-bottom: 25px;
   z-index: 99999;
 }
 
@@ -389,6 +392,13 @@ h4 {
   top: 10px;
   right: 30px;
   cursor: pointer;
+}
+
+.modal .modal-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  
 }
 
 .modal h6 {
@@ -426,6 +436,71 @@ h4 {
 .modal-description {
   font-size: 15px;
   padding: 5px;
+}
+
+.description-container {
+ display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+}
+
+.description-container .modal-description {
+  width: 65%;
+}
+
+.modal-img {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 60%;
+  height: 55%;
+}
+
+#seeLive {
+  font-size: 17px;
+  font-weight: 500;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#seeLive:disabled {
+  background: #c1c7d0;
+  color: gray;
+}
+
+#seeLive:hover {
+  color: rgb(255, 253, 253);
+  background: #6070ff;
+}
+
+#seeLive:active {
+  color: white;
+  background: #2560f5;
+}
+
+#seeSource {
+  font-size: 17px;
+  font-weight: 500;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#seeSource:disabled {
+  background: #c1c7d0;
+  color: gray;
+}
+
+#seeSource:hover {
+  color: rgb(255, 253, 253);
+  background: #6070ff;
+}
+
+#seeSource:active {
+  color: white;
+  background: #2560f5;
 }
 
 @media screen and (max-width: 767px) {
