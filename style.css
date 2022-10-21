@@ -501,6 +501,14 @@ h6 {
   background: #2560f5;
 }
 
+#error {
+  color: red;
+  font-size: 17px;
+  line-height: 20px;
+  height: 48px;
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
   .introducion {
     background-image: url("images/header-shapes.png");
