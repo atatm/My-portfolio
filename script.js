@@ -140,12 +140,12 @@ const email = document.getElementById('mail');
 const showerror = document.getElementById('error');
 
 form.addEventListener('submit', (func) => {
-  const message = 'Email must be a Lowercase,you include un upperCase letter';
-  if (email.value.toLowerCase() === email.value) {
-    form.submit();
-  } else {
+  const errormessage = 'Email must be a Lowercase,you include un upperCase letter';
+  if (email.value.toLowerCase() !== email.value) {
     func.preventDefault();
-    showerror.innerText = message;
+    showerror.innerText = errormessage;
     showerror.style.opacity = 1;
+  } else {
+    form.submit();
   }
 });
