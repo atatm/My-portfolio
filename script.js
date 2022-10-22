@@ -149,3 +149,17 @@ form.addEventListener('submit', (func) => {
     form.submit();
   }
 });
+
+const Name = document.getElementById('name').value;
+const Email = document.getElementById('mail').value;
+const Msg = document.getElementById('msg').value;
+
+form.addEventListener('submit', (fun) => {
+  const nid = localStorage.setItem('Name', Name);
+  const eid = localStorage.setItem('Email', Email);
+  const mid = localStorage.setItem('Msg', Msg);
+
+  const gnid = localStorage.getItem('Name', Name);
+  const geid = localStorage.getItem('Email', Email);
+  const gmid = localStorage.getItem('Msg', Msg);
+});
