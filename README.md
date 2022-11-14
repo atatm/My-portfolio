@@ -1,6 +1,6 @@
 # My-portfolio
 
-> In this app I made my portfolio by using html css and JavaScript.
+> In this app I made my portfolio by using html css and JavaScript.I used media query to make my portfolio responsive for different screensize.
 
 
 Built With:html css and javascript
