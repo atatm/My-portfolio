@@ -1,6 +1,6 @@
-# setup-and-mobile-project
+# My-portfolio
 
-Project Name : setup-and-mobile-project
+> In this app I made my portfolio by using html css and JavaScript.
 
 
 Built With:html css and javascript
@@ -13,7 +13,7 @@ To get a local copy up and running follow these simple example steps.
 
 Prerequisites
 Setup
-Install : https://github.com/atatm/setup-and-mobile-project.git
+Install : https://github.com/atatm/My-portfolio.git
 Usage
 Run tests
 Deployment
